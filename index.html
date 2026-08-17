@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Güney Gözübüyük | Medieninformatik Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<header>
+    <nav class="navbar">
+        <div class="logo">&lt;Güney Gözübüyük /&gt;</div>
+        <ul class="nav-links">
+            <li><a href="#startseite">Start</a></li>
+            <li><a href="#über">Über mich</a></li>
+            <li><a href="#portfolio">Projekte</a></li>
+            <li><a href="#ausbildung">Bildungsweg</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+
+<section id="startseite" class="hero">
+    <span class="greeting">Hi, ich bin</span>
+    <div class="hero-image">
+        <img src="pictures/local_image_5C0C8B9D-28BB-474B-99B2-6B40A2E1A9FF_L0_001%20-%20bearbeitet.jpeg" alt="Güney Gözübüyük" height="3651" width="2738"/></div>
+    <h1>Güney Gözübüyük</h1>
+    <p>Medieninformatik-Student | Fokus auf Webentwicklung & Content Creation</p>
+    <div class="hero-btns">
+        <a href="#portfolio" class="btn btn-primary">Projekte ansehen</a>
+        <a href="mailto:gueney.g@proton.me" class="btn btn-outline">Kontakt aufnehmen</a>
+    </div>
+</section>
+
+<!-- Über mich -->
+<section id="über" class="section">
+    <div class="container">
+        <h2>Über mich</h2>
+        <div class="about-content">
+            <p>Medieninformatik-Student an der THM mit dem Schwerpunkt Web & Mobile. Ich arbeite an der Schnittstelle von Code und Design: Von der Implementierung responsiver Web-Oberflächen bis hin zur Erstellung von UI-Prototypen und Grafiken.</p>
+            <p>Ich suche eine Werkstudentenstelle, in der ich meine technisches Verständnis aus dem Studium und meine Erfahrung mit gängigen Design-Tools gezielt einsetzen kann.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio / Projekte mit Filter -->
+<section id="portfolio" class="section bg-alt">
+    <div class="container">
+        <h2>Portfolio</h2>
+        <p class="section-subtitle">Eine Auswahl meiner Figma-Prototypen und Illustrator-Designprojekte.</p>
+
+        <!-- Filter Buttons -->
+        <div class="filter-bar">
+            <button class="filter-btn active" data-filter="all">Alle</button>
+            <button class="filter-btn" data-filter="web">Web & Prototypen</button>
+            <button class="filter-btn" data-filter="content">Design & Content</button>
+        </div>
+
+        <!-- Projekt Galerie -->
+        <div class="gallery">
+
+            <!-- Projekt 1: Gravel Addiction (Web/Figma) -->
+            <div class="project-card web">
+                <a href="pictures/Projekt-Gravel%20addiction2022_compressed.pdf" target="_blank">
+                    <div class="img-wrapper">
+                        <img src="pictures/image-from-rawpixel-id-3415605-original.jpg" alt="Gravel Biking Web-Design">
+                    </div>
+                    <div class="project-info">
+                        <h3>Gravel Biking & Abenteuer</h3>
+                        <span class="tag">Figma / Web</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Projekt 2: Napoli Mobile (Web/Figma) -->
+            <div class="project-card web">
+                <a href="pictures/Prototype napoli mobile website.pdf" target="_blank">
+                    <div class="img-wrapper">
+                        <img src="pictures/iphone.jpg" alt="Napoli Mobile Website">
+                    </div>
+                    <div class="project-info">
+                        <h3>Napoli Mobile App</h3>
+                        <span class="tag">UI/UX Prototyp</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Projekt 3: Muhu Verpackung (Design/Illustrator) -->
+            <div class="project-card content">
+                <a href="pictures/Gliederung-zusammengefügt-komprimiert.pdf" target="_blank">
+                    <div class="img-wrapper">
+                        <img src="pictures/muhu.jpg" alt="Muhu Packaging Design">
+                    </div>
+                    <div class="project-info">
+                        <h3>Muhu Branding & Paket</h3>
+                        <span class="tag">Illustrator</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Projekt 4: Hiking Plakat (Design/Illustrator) -->
+            <div class="project-card content">
+                <a href="pictures/Project_Plakat_Hiking_compressed.pdf" target="_blank">
+                    <div class="img-wrapper">
+                        <img src="pictures/hiking Plakat.jpg" alt="Hiking Plakat Design">
+                    </div>
+                    <div class="project-info">
+                        <h3>Hiking Tour Plakat</h3>
+                        <span class="tag">Grafikdesign</span>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Ausbildung & Skills -->
+<section id="ausbildung" class="section">
+    <div class="container">
+        <h2>Laufbahn & Skills</h2>
+        <div class="cv-grid">
+            <div class="box">
+                <h3>Skills</h3>
+                <p><strong>Frontend:</strong> HTML5, CSS3, JavaScript</p>
+                <p><strong>Backend:</strong> Java, PHP</p>
+                <p><strong>UI/UX:</strong> Figma</p>
+                <p><strong>Grafik:</strong> Adobe Illustrator, Photoshop, Canva</p>
+                <p><strong>Tools:</strong> Git, GitHub, Linux</p>
+            </div>
+            <div class="box">
+                <h3>Bildungsweg</h3>
+                <p><strong>B.Sc. Medieninformatik (THM)</strong> | <em>seit 10/2022</em><br>
+                    <small>Schwerpunkte: Webentwicklung, Mobile Apps<br>
+                        Fokus: Entwicklung responsiver Webseiten (HTML5, CSS3, JavaScript)</small></p>
+                <p><strong>B.Sc. Digitale Medien (HS Fulda)</strong> | <em>09/2018 – 02/2021</em></p>
+                <p><strong>Fachabitur Gestaltung</strong> | <em>08/2015 – 06/2018</em></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Kontakt -->
+<section id="kontakt" class="section bg-alt">
+    <div class="container contact-box">
+        <h2>Kontakt</h2>
+        <p>Gießen, De</p>
+        <p>E-Mail: <a href="mailto:gueney.g@proton.me">gueney.g@proton.me</a></p>
+        <p>Telefon: +49 1520 4738143</p>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2026 Güney Gözübüyük. Alle Rechte vorbehalten.</p>
+    <p style="margin-top: 10px;">
+        <a href="impressum.html" style="color: var(--text-muted); margin-right: 15px; text-decoration: none;">Impressum</a>
+        <a href="datenschutz.html" style="color: var(--text-muted); text-decoration: none;">Datenschutz</a>
+    </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
